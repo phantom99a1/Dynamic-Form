@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Dynamic Form</title>
+</head>
+<body>
+    <h1>Code With Fahaz</h1>
+    <div class="container">
+        <form action="" method="POST">
+            <div id="formfield">
+                <input type="text" name="text" class="text" size="50" placeholder="Name" required>
+                <input type="text" name="text" class="text" size="50" placeholder="Email" required>
+                <input type="text" name="text" class="text" size="50" placeholder="Optional Field">
+            </div>
+            <input type="submit" value="Submit" name="submit">
+        </form>
+        <div class="controls">
+            <button onclick="add()" class="add"><i class="fa fa-plus"></i>Add</button>
+            <button class="remove" onclick="remove()"><i class="fa fa-minus"></i>Remove</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
